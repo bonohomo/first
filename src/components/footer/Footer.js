@@ -3,7 +3,7 @@ import React from "react";
 class Footer extends React.Component {
     render() {
         return (
-            <footer>
+            <footer style={{background: "lightblue", padding: "10px 0", fontWeight: "bold"}}>
                 <p>Copyright</p>
             </footer>
         )
